@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+section{
+	overflow: hidden;
+}
+.container{
+	width: 90%;
+}
+.row{
+	overflow: hidden;
+}
+.section-1 {
+	margin: 0px auto;
+    width: 100%;
+    height: 40px;
+    background: #8c8780;
+}
+.section-1 ul {
+    float: right;
+    color: white;
+}
+.section-1 li {
+    float: left;
+    list-style: none;
+}
+.section-2 {
+    background: white;
+}
+.container-2 {
+    width: 100%;
+    /*height: 100%;*/
+}
+.container-2 img{
+    width: 100px;
+    float:left ;
+    margin-left: 10%;
+}
+
+.container-2 h3{
+    float: left;
+    font-size: 18px;
+    margin-left: 2%;
+    line-height: 20%;
+    color: #a2a2a2;
+}
+.container-2 .right{
+    float: right;
+    font-size: 14px;
+    line-height: 20%;
+    color: #a2a2a2;
+    text-decoration:underline ;
+    cursor: pointer;
+}
+
+.odiv{
+	background: #f4f4f4; 
+}
+/*.section-3{
+	height: 1000px;
+}*/
+.container-4{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+.container-4 a{
+	font-size:13px ;
+	color: black;
+	text-decoration: none;
+	margin: 18% 24%;
+	display: block;
+}
+.container-4 a:hover{
+	text-decoration: underline;
+}
+.container-6{
+	width: 100%;
+}
+.container-6 h3{
+	padding: 9% 31%;
+	font-size: 13px;
+}
+.container-6 h4{
+	font-size: 16px;
+	margin-left: 33%;
+}
+.container-6 h4 span{
+	color: red;
+}
+.container-7{
+	margin: 5% 0%;
+	width: 100%;
+	height: 390px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+.container-7 img{
+	margin: 10% 10%;
+	width: 80%;
+}
+body{
+	background: #eff0f1;
+}
+.container-7 ul{
+	
+}
+.container-7 ul li{
+	float: left;
+	line-height: 12px;
+	font-size: 13px;
+	margin-left: 20%;
+}
+.container-7 ul li p{
+	margin-left: -44%;
+}
+.container-7 ul li img{
+	width: 80%;
+	margin-left: 10%;
+}
+.section-4{
+	overflow: hidden;
+}
+.section-4 .container-right{
+	width: 100%;
+	height: 650px;
+	background: white;
+	margin: 14% 0%;
+}
+.container-right img{
+	width: 80%;
+	margin-top: 250px;
+	margin-left: 10%;
+}
+.container-right button{
+	width: 70%;
+	height: 5%;
+	margin-left: 15%;
+	border-radius:8px ;
+	font-size: 12px;
+	background: #88aaee;
+}
+
+.footer-button{
+	width: 100%;
+	background: #eff0f1;
+}
+.footer-button h5{
+	width: 100%;
+	margin-top: 5%;
+	text-align: center;
+}
+.footer-button ul{
+	width: 100%;
+	list-style: none;
+	margin-left: 20%;
+}
+.footer-button li{
+	float: left;
+	width: 9%;
+	height: 100%;
+	margin-right: 1%;
+}
+.footer-button li img{
+	width: 100%;
+}

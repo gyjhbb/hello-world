@@ -1,0 +1,74 @@
+/*.box h2{
+	
+	padding-left: 20px;
+	font: 400 14px "微软雅黑";
+	line-height: 50px;
+	height: 50px;
+}*/
+.line{
+	height: 50px;
+}
+.left-4{
+	padding: 10px;
+}
+.right-4{
+	width: 300px;
+	height:100% ;
+	position: relative;
+}
+.right-4 .txt{
+	height: 26px;
+	width: 200px;
+	margin: 6px 0px;
+}
+.right-4 .btn{
+	height: 30px;
+	width: 60px;
+	position: absolute;
+	top:6px;
+	left:144px;
+}
+
+.order-list{
+	background-color: white;
+}
+.order-item{
+	width: 100%;
+	padding:10px 20px;
+	border: 1px solid gray;
+	
+}
+.order-item .order-item-header{
+	
+	height: 50px;
+	background: red;
+	line-height: 50px;
+	text-align: center;
+}
+.length{
+	height: 105px;
+	width: 100%;
+}
+.length img{
+	width: 100px;
+	float: left;
+}
+.length .name{
+	float: left;
+	height: 100px;
+	width: 600px;
+	border-bottom: 1px solid black;
+}
+.name .good-name{
+	height: 50px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.name .good-price{
+	float: left;
+	height: 50px;
+	font-size:16px;
+}
+.name .good-price span{
+	color: red;
+}

@@ -1,0 +1,142 @@
+.row{
+	width: 100%;
+}
+.imgCon{
+	position: relative;
+	margin: 20px 0px;
+}
+
+.distinct{
+	margin-top: 30px;
+}
+.imgCon img{
+	width: 100%;
+}
+.shadow{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	display: none;
+}
+
+.imgCon:hover .shadow{
+	display: block;
+}
+.shadow .icon-bar{
+	position: absolute;
+	top:24%;
+	left:40%;
+	display: block;
+	height: 10%;
+	width: 20%;
+	text-decoration: none;
+	font-size: 20px;
+}
+.shadow .icon-bar img{
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 50%;
+	height: 100%;
+}
+.shadow .icon-bar .icon-bar-txt{
+	position: absolute;
+	top:0%;
+	left:50%;
+	text-align: center;
+	line-height: 166%;
+	width: 75%;
+	height: 100%;
+}
+.shadow h2{
+	font-size: 16px;
+	color: blue;
+	width: 100%;
+	height: 7%;
+	margin-top: 40%;
+	text-align: center;
+	overflow: hidden;
+}
+.shadow span{
+	display: block;
+	font-size:14px;
+	color: white;
+	width: 100%;
+	height: 12%;
+	text-align: center;
+	padding: 5% 10%;
+	overflow: hidden;
+	text-overflow:ellipsis ;
+	white-space: nowrap;
+}
+.shadow p{
+	font: 400 12px "微软雅黑";
+	color: white;
+	width: 100%;
+	height: 15%;
+	padding: 5% 10%;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+/*.shadow .fs{
+	font-size: 16px;
+}*/
+.button{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#ButtonPrev{
+    color: black;
+    display: inline-block;
+    float: left;
+    width: 10%;
+    border:1px solid gainsboro;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+}
+#ButtonNext{
+    color: black;
+    display: inline-block;
+    float: right;
+    width: 10%;
+    border:1px solid gainsboro;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+}
+.button-center{
+    float: left;
+    overflow: hidden;
+    width:75%;
+    height: 30px;
+    margin-left: 2%;
+}
+#ButtonCenter{
+    float: left;
+    width: 400%;
+    height:30px;
+    margin-left: 0;
+}
+#ButtonCenter span{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border:1px solid #666666;
+    background-color: #dddddd;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+#ButtonCenter span.button-center-span{
+    background: firebrick;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+	</head>
+	<body>
+		<header>
+			<div id="nav">
+				<div class="header-content">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid ">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only"> </span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+				    		</button>
+								<a class="navbar-brand" id="logo" href="#"></a>
+								<!--logo-->
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="login">
+										<a href="login.html">登陆</a>
+									</li>
+									<li class="reg">
+										<a href="#">注册</a>
+									</li>
+									<li class="lin hidden-xs"></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">购物车 </a>
+										<ul class="dropdown-menu dropdown_menu">
+											<li>
+
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+
+											</li>
+										</ul>
+									</li>
+									<li class="lin hidden-xs"></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">消息</a>
+										<ul class="dropdown-menu dropdown_menu">
+											<li>
+												<span>动态</span> <i>0</i>
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+												<span>评论</span> <i>0</i>
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+												<span>私信</span> <i>0</i>
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+												<span>粉丝</span> <i>0</i>
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+												<span>喜欢</span> <i>0</i>
+											</li>
+											<li role="separator" class="divider"></li>
+											<li>
+												<span>通知</span> <i>0</i>
+											</li>
+										</ul>
+									</li>
+									<li class="lin hidden-xs"></li>
+									<li>
+										<a href="#">添加良品</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="classify">
+				<ul class="classify-content">
+					<li><a href="index.html">首页</a></li>
+				</ul>
+				<div class="classify-right"><input type="text" id="str" placeholder="请输入" /> <span id="sbtn"></span></div>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<div class="show-img">
+							<div class="image" id="image-1">
+								<!--<img src="img/c1.jpg"/>
+								<div class="ganzi"></div>-->
+							</div>
+							<div class="img-detail">
+								<ul id="img">
+									<!--<li><img src="img/c1.jpg" alt="" /></li>
+									<li><img src="img/c1.jpg" alt="" /></li>
+									<li><img src="img/c1.jpg" alt="" /></li>
+									<li><img src="img/c1.jpg" alt="" /></li>-->
+								</ul>
+								<div class="button">
+									<a href="javascript:;" class="btnLeft"><</a>
+									<a href="javascript:;" class="btnRight">></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-7 col-xs-12">
+						<div class="good-descible">
+							<span>344</span>
+							<div class="good-name">
+								<!--<h5>ROYAL APOTHIC</h5>
+								<p>男士全天候抗老化润肤霜 | 集合了所有能保护、修复、营养你皮肤的纯天然植物精油【120g】</p>-->
+							</div>
+						</div>
+						<div class="price-descible">
+							<p class="price">
+								<!--价格：
+								<span>￥399</span>-->
+							</p>
+							<div class="descible">
+								<!--<p>9折-贝嫂”维多利亚、“脱口秀女王”奥普拉爱不释手的皇室复古护理品牌
+								活动截止日期：2018-09-01 00:00:00</p>
+								<div class="descible-icon"><em>免运费</em><i>正品授权</i></div>-->
+								
+							</div>
+							<div class="amount">
+								<span>数量:</span>
+								<div class="amount-count">
+									<span id="reduce">-</span>
+									<p class="value-1">1</p>
+									<span id="add">+</span>
+								</div>
+							</div>
+						</div>
+						<div class="join-car">
+							<p id="settle">立即购买</p>
+							<ul>
+								<li class="li-left">加入购物车</li>
+								<li class="li-right">分享</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 hidden-md hidden-sm hidden-xs like">
+						<p class="be-like">猜你喜欢</p>
+						<div class="image">
+							<img src="img/c1.jpg"/>
+							<div class="ganzi"></div>
+						</div>
+						<div class="close-desc">
+							<p class="close-name">灵明石猴@求变化  前长后短麻花纹高领毛衣（7个工作日内发货）</p>
+							<p class="close-banned">ROYAL APOTHIC</p>
+							<p class="close-price">￥189</p>
+						</div>
+						<div class="image">
+							<img src="img/c1.jpg"/>
+							<div class="ganzi"></div>
+						</div>
+						<div class="close-desc">
+							<p class="close-name">灵明石猴@求变化  前长后短麻花纹高领毛衣（7个工作日内发货）</p>
+							<p class="close-banned">ROYAL APOTHIC</p>
+							<p class="close-price">￥189</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-9 hidden-md hidden-sm hidden-xs missed">
+						<span>ROYAL APOTHIC</span>
+						<p>皮肤一旦开始保养起来，是不分白天黑夜季节变化的，所以正值夏天的现在，推荐一个Wconcept上一个已经超高知名度但在国内还比较小众的乳液品牌——ROYAL APOTHIC，品牌的明星产品是身体乳和护手霜，那些冬天才知道要保养的部位，其实夏天也需要你的呵护。</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div id="service">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-4">
+							<div class="content-top">
+								<b class="p-noe"></b>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 fore1">
+							<div class=" forel">
+								<em></em>
+								<div class="odiv">
+									<p>全球精选</p>
+									<p class="p-tow">Global Selections</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 fore2">
+							<div class=" forel">
+								<em></em>
+								<div class="odiv">
+									<p>正品保证</p>
+									<p class="p-tow">Authenticity Guaranteed</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 fore3">
+							<div class=" forel">
+								<em></em>
+								<div class="odiv">
+									<p>全场包邮</p>
+									<p class="p-tow">Free Delivery</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3 fore4">
+							<div class=" forel">
+								<em></em>
+								<div class="odiv">
+									<p>400-897-6336</p>
+									<p class="p-tow">工作日 09:00-18:00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-content">
+				<div class="footer-content1">
+					<div class="footer-left">
+						<i></i>
+						<div>
+							<p>iPhone Android</p>
+							<p>客户端下载</p>
+						</div>
+						<div class="left-msg"></div>
+					</div>
+
+					<div class="footer-right">
+						<i><div class="right-img"></div></i>
+						<em><div class="right-img"></div></em>
+						<b><div class="right-img"></div></b>
+					</div>
+					<div class="footer-button">
+						<p>关于良仓&nbsp;&nbsp;|&nbsp;&nbsp;服务协议&nbsp;&nbsp;|&nbsp;&nbsp;隐私保护政策&nbsp;&nbsp;|&nbsp;&nbsp;使用指南&nbsp;&nbsp;|&nbsp;&nbsp;联系我们&nbsp;&nbsp;|&nbsp;&nbsp;加入我们&nbsp;&nbsp;|&nbsp;&nbsp;友情链接&nbsp;&nbsp;|&nbsp;&nbsp;私信良仓</p>
+						<br/>
+						<p>© 2013-2015 北京良仓文化传播有限公司版权所有 京ICP备13010677号-1 京公网安备11010502025627</p>
+						<p> 公司名称：北京良仓文化传播有限公司 电话：010-58263516</p>
+						<p> 公司地址：北京朝阳区百子湾路32号6号楼1层60号.</p>
+						<p> 社会信用统一代码：91110105059231575L 食品许可证：JY11105160159557 </p>
+						<p> 图书证名称：中华人民共和国出版物经营许可证 图书证编号：新出发京零 字第 朝 150051 号 </p>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<div id="rightsidebar">
+			<p class="top"></p>
+			<div class="phone">
+				<span class="glyphicon  glyphicon-phone-alt" aria-hidden="true"></span> 联系客服
+			</div>
+
+		</div>
+		<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+
